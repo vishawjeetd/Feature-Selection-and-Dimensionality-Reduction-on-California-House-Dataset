@@ -30,7 +30,7 @@ Explores various methods to enhance predictive modeling on the California Housin
 
 | Experiment Name                                     | Excluded Features                            | Selected Features                        | R2 Score    | MSE          |
 |-----------------------------------------------------|---------------------------------------------|------------------------------------------|-------------|--------------|
-| Base Model Run - with all features                  | ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude'] |                                            | 0.610963372 | 0.540412806  |
+| Base Model Run - with all features                  | |['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup', 'Latitude', 'Longitude']                                             | 0.610963372 | 0.540412806  |
 | Exp 1 - Variance Threshold of 70%                   | ['AveBedrms']                               | ['MedInc', 'HouseAge', 'AveRooms', 'Population', 'AveOccup', 'Latitude', 'Longitude']              | 0.60159948  | 0.556502204  |
 | Exp 2 - SelectKBest with mutual info: top 4 features| ['HouseAge', 'AveBedrms', 'Population', 'AveOccup'] | ['MedInc', 'AveRooms', 'Latitude', 'Longitude']                                                      | 0.590175743 | 0.569146713  |
 | Exp 3 - SelectKBest with pearson correlation: top 4 features | ['AveBedrms', 'Population', 'Latitude', 'Longitude'] | ['MedInc', 'HouseAge', 'AveRooms', 'AveOccup']                                                     | 0.52083862  | 0.673465188  |
@@ -52,3 +52,4 @@ Explores various methods to enhance predictive modeling on the California Housin
 Since The California Housing Dataset, being a prebuilt dataset, offers a relatively cleaner and more structured environment for experimentation. We have failed to improve model significantly.
 
 But in real-world dataset, feature selection and dimensionality reduction play critical roles in improving model performance and interpretability. Through systematic experimentation and evaluation of various techniques, we can identify the most suitable methods for a given dataset and modeling task, ultimately enhancing the effectiveness of predictive modeling on real-world datasets like the California Housing Dataset
+	
