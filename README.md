@@ -49,6 +49,6 @@ Explores various methods to enhance predictive modeling on the California Housin
 
 ## Summary
 
-The California Housing Dataset, being a prebuilt dataset, offers a relatively cleaner and more structured environment for experimentation. Through the conducted experiments, it becomes evident that any removal of features significantly impacts the final results. 
+Since The California Housing Dataset, being a prebuilt dataset, offers a relatively cleaner and more structured environment for experimentation. We have failed to improve model significantly.
 
-In summary, feature selection and dimensionality reduction play critical roles in improving model performance and interpretability. Through systematic experimentation and evaluation of various techniques, we can identify the most suitable methods for a given dataset and modeling task, ultimately enhancing the effectiveness of predictive modeling on real-world datasets like the California Housing Dataset
+But in real-world dataset, feature selection and dimensionality reduction play critical roles in improving model performance and interpretability. Through systematic experimentation and evaluation of various techniques, we can identify the most suitable methods for a given dataset and modeling task, ultimately enhancing the effectiveness of predictive modeling on real-world datasets like the California Housing Dataset
