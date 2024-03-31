@@ -1,21 +1,6 @@
 
 ![Logo](https://github.com/vishawjeetd/Feature-Selection-and-Dimensionality-Reduction-on-California-House-Dataset/blob/main/img/title.png?raw=true)
 
-## Implementation Details
-
-### Dataset Details
-- **Dataset:** California Housing Dataset from SKLEARN
-- **Data Granularity:** Block level
-- **Input:** Location, Age of house, Income, Number of rooms & bedrooms, Occupancy of household members, Population
-- **Output:** House Prices
-- **Source:** 1990 U.S. census
-- **Number of Instances:** 20640
-
-### Technical Details
-- **Programming Language:** Python
-- **Jupyter Notebook:** Google Colab
-- **Packages Used:** sklearn, pandas, numpy, ydata_profiling
-- **Code file:** [Feature_Selection_and_Dimensionality_Reduction_Techniques_on_California_House_Price_Dataset.ipynb](https://github.com/vishawjeetd/Feature-Selection-and-Dimensionality-Reduction-on-California-House-Dataset/blob/f9ac00a6c16fea1b893676d430d7bed31a0e9ae3/src/Feature_Selection_and_Dimensionality_Reduction_Techniques_on_California_House_Price_Dataset.ipynb)
 
 
 # Feature Selection and Dimensionality Reduction Techniques on California House Price Dataset
@@ -45,7 +30,29 @@ Explores various methods to enhance predictive modeling on the California Housin
 | Exp 12 - Lasso                                      |                                               |                                          | 0.2923162   | 0.945250079  |
 | Exp 13 - PCA - 4 Components                         |                                               |                                          | 0.011731481 | 1.313124391  |
 
+## Implementation Details
 
+### Dataset Details
+- **Dataset:** California Housing Dataset from SKLEARN
+- **Data Granularity:** Block level
+- **Input:** Location, Age of house, Income, Number of rooms & bedrooms, Occupancy of household members, Population
+- **Output:** House Prices
+- **Source:** 1990 U.S. census
+- **Number of Instances:** 20640
+
+### Technical Details
+- **Programming Language:** Python
+- **Jupyter Notebook:** Google Colab
+- **Packages Used:** sklearn, pandas, numpy, ydata_profiling
+- **Code file:** [Feature_Selection_and_Dimensionality_Reduction_Techniques_on_California_House_Price_Dataset.ipynb](https://github.com/vishawjeetd/Feature-Selection-and-Dimensionality-Reduction-on-California-House-Dataset/blob/f9ac00a6c16fea1b893676d430d7bed31a0e9ae3/src/Feature_Selection_and_Dimensionality_Reduction_Techniques_on_California_House_Price_Dataset.ipynb)
+
+## How to Run
+
+The code is built on Google Colab on an iPython Notebook. 
+
+```bash
+Simply download the repository, upload the notebook and dataset on colab, and hit play!
+```
 
 ## Summary
 
