@@ -32,7 +32,7 @@ The code is built on Google Colab on an iPython Notebook.
 
 ```bash
 Simply download the repository, upload the notebook and dataset on colab, and hit play!
-``
+```
 
 ## Results
 
@@ -53,7 +53,6 @@ Simply download the repository, upload the notebook and dataset on colab, and hi
 | Exp 12 - Lasso                                      |                                               |                                          | 0.2923162   | 0.945250079  |
 | Exp 13 - PCA - 4 Components                         |                                               |                                          | 0.011731481 | 1.313124391  |
 
-`
 
 ## Summary
 
