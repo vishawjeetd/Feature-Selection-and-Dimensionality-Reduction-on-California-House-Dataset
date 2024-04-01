@@ -23,7 +23,7 @@ Explores various methods to enhance predictive modeling on the California Housin
 ### Technical Details
 - **Programming Language:** Python
 - **Jupyter Notebook:** Google Colab
-- **Packages Used:** sklearn, pandas, numpy, ydata_profiling
+- **Packages Used:** sklearn, pandas, numpy
 - **Code file:** [Feature_Selection_and_Dimensionality_Reduction_Techniques_on_California_House_Price_Dataset.ipynb](https://github.com/vishawjeetd/Feature-Selection-and-Dimensionality-Reduction-on-California-House-Dataset/blob/f9ac00a6c16fea1b893676d430d7bed31a0e9ae3/src/Feature_Selection_and_Dimensionality_Reduction_Techniques_on_California_House_Price_Dataset.ipynb)
 
 ## How to Run
